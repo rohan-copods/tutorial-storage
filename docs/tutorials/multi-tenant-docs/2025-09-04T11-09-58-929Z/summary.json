@@ -1,0 +1,424 @@
+{
+  "repository": "Rohan07162003/multi-tenant-docs",
+  "repoUrl": "https://github.com/Rohan07162003/multi-tenant-docs",
+  "totalFiles": 75,
+  "totalSize": 399311,
+  "extractionDate": "2025-09-04T11:08:30.646Z",
+  "summary": {
+    "repoUrl": "https://github.com/Rohan07162003/multi-tenant-docs",
+    "owner": "Rohan07162003",
+    "repo": "multi-tenant-docs",
+    "timestamp": "2025-09-04T11:08:30.646Z",
+    "totalFiles": 75,
+    "totalSize": 399311,
+    "fileTypes": {
+      "": 1,
+      ".md": 3,
+      ".tsx": 10,
+      ".ts": 8,
+      ".css": 1,
+      ".mdx": 34,
+      ".json": 12,
+      ".mjs": 2,
+      ".yaml": 4
+    },
+    "directories": [
+      ".",
+      "app/(home)",
+      "app/api/projects",
+      "app/api/search",
+      "app/api/suppliers",
+      "app/api/users/[id]",
+      "app/api/users",
+      "app/docs/[[...slug]]",
+      "app/docs",
+      "app",
+      "components",
+      "content/docs/acme-corp/v1",
+      "content/docs/acme-corp/v2",
+      "content/docs/globaldyne-industries/v1",
+      "content/docs/globaldyne-industries/v2",
+      "content/docs/globaldyne-industries/v3",
+      "content/docs",
+      "content/docs/public/v1",
+      "content/docs/public/v2",
+      "content/docs/techflow-solutions/v1",
+      "content/docs/techflow-solutions/v2",
+      "lib",
+      "public/files"
+    ],
+    "structure": {
+      ".gitignore": {
+        "type": "directory",
+        "children": {}
+      },
+      "README.md": {
+        "type": "file"
+      },
+      "app": {
+        "type": "directory",
+        "children": {
+          "(home)": {
+            "type": "directory",
+            "children": {
+              "layout.tsx": {
+                "type": "file"
+              },
+              "page.tsx": {
+                "type": "file"
+              }
+            }
+          },
+          "api": {
+            "type": "directory",
+            "children": {
+              "projects": {
+                "type": "directory",
+                "children": {
+                  "route.ts": {
+                    "type": "file"
+                  }
+                }
+              },
+              "search": {
+                "type": "directory",
+                "children": {
+                  "route.ts": {
+                    "type": "file"
+                  }
+                }
+              },
+              "suppliers": {
+                "type": "directory",
+                "children": {
+                  "route.ts": {
+                    "type": "file"
+                  }
+                }
+              },
+              "users": {
+                "type": "directory",
+                "children": {
+                  "[id]": {
+                    "type": "directory",
+                    "children": {
+                      "route.ts": {
+                        "type": "file"
+                      }
+                    }
+                  },
+                  "route.ts": {
+                    "type": "file"
+                  }
+                }
+              }
+            }
+          },
+          "docs": {
+            "type": "directory",
+            "children": {
+              "[[...slug]]": {
+                "type": "directory",
+                "children": {
+                  "page.tsx": {
+                    "type": "file"
+                  }
+                }
+              },
+              "layout.tsx": {
+                "type": "file"
+              }
+            }
+          },
+          "global.css": {
+            "type": "file"
+          },
+          "layout.config.tsx": {
+            "type": "file"
+          },
+          "layout.tsx": {
+            "type": "file"
+          }
+        }
+      },
+      "components": {
+        "type": "directory",
+        "children": {
+          "ApiEndpoint.tsx": {
+            "type": "file"
+          },
+          "api-caller.tsx": {
+            "type": "file"
+          },
+          "version-toggle.tsx": {
+            "type": "file"
+          }
+        }
+      },
+      "content": {
+        "type": "directory",
+        "children": {
+          "docs": {
+            "type": "directory",
+            "children": {
+              "acme-corp": {
+                "type": "directory",
+                "children": {
+                  "v1": {
+                    "type": "directory",
+                    "children": {
+                      "index.mdx": {
+                        "type": "file"
+                      },
+                      "meta.json": {
+                        "type": "file"
+                      },
+                      "production-systems.mdx": {
+                        "type": "file"
+                      },
+                      "quality-control.mdx": {
+                        "type": "file"
+                      }
+                    }
+                  },
+                  "v2": {
+                    "type": "directory",
+                    "children": {
+                      "api-reference.mdx": {
+                        "type": "file"
+                      },
+                      "index.mdx": {
+                        "type": "file"
+                      },
+                      "inventory-management.mdx": {
+                        "type": "file"
+                      },
+                      "meta.json": {
+                        "type": "file"
+                      },
+                      "production-systems.mdx": {
+                        "type": "file"
+                      },
+                      "quality-control.mdx": {
+                        "type": "file"
+                      }
+                    }
+                  }
+                }
+              },
+              "globaldyne-industries": {
+                "type": "directory",
+                "children": {
+                  "v1": {
+                    "type": "directory",
+                    "children": {
+                      "index.mdx": {
+                        "type": "file"
+                      },
+                      "meta.json": {
+                        "type": "file"
+                      },
+                      "transportation.mdx": {
+                        "type": "file"
+                      },
+                      "warehouse-operations.mdx": {
+                        "type": "file"
+                      }
+                    }
+                  },
+                  "v2": {
+                    "type": "directory",
+                    "children": {
+                      "index.mdx": {
+                        "type": "file"
+                      },
+                      "inventory-tracking.mdx": {
+                        "type": "file"
+                      },
+                      "meta.json": {
+                        "type": "file"
+                      },
+                      "supplier-portal.mdx": {
+                        "type": "file"
+                      },
+                      "transportation-management.mdx": {
+                        "type": "file"
+                      },
+                      "warehouse-operations.mdx": {
+                        "type": "file"
+                      }
+                    }
+                  },
+                  "v3": {
+                    "type": "directory",
+                    "children": {
+                      "index.mdx": {
+                        "type": "file"
+                      },
+                      "meta.json": {
+                        "type": "file"
+                      },
+                      "openapi-demo.mdx": {
+                        "type": "file"
+                      },
+                      "supplier-portal.mdx": {
+                        "type": "file"
+                      }
+                    }
+                  }
+                }
+              },
+              "index.mdx": {
+                "type": "file"
+              },
+              "public": {
+                "type": "directory",
+                "children": {
+                  "v1": {
+                    "type": "directory",
+                    "children": {
+                      "api-reference.mdx": {
+                        "type": "file"
+                      },
+                      "index.mdx": {
+                        "type": "file"
+                      },
+                      "meta.json": {
+                        "type": "file"
+                      },
+                      "quick-start.mdx": {
+                        "type": "file"
+                      }
+                    }
+                  },
+                  "v2": {
+                    "type": "directory",
+                    "children": {
+                      "api-reference.mdx": {
+                        "type": "file"
+                      },
+                      "index.mdx": {
+                        "type": "file"
+                      },
+                      "meta.json": {
+                        "type": "file"
+                      },
+                      "quick-start.mdx": {
+                        "type": "file"
+                      }
+                    }
+                  }
+                }
+              },
+              "techflow-solutions": {
+                "type": "directory",
+                "children": {
+                  "v1": {
+                    "type": "directory",
+                    "children": {
+                      "deployment-guide.mdx": {
+                        "type": "file"
+                      },
+                      "development-standards.mdx": {
+                        "type": "file"
+                      },
+                      "index.mdx": {
+                        "type": "file"
+                      },
+                      "meta.json": {
+                        "type": "file"
+                      }
+                    }
+                  },
+                  "v2": {
+                    "type": "directory",
+                    "children": {
+                      "architecture-guidelines.mdx": {
+                        "type": "file"
+                      },
+                      "deployment-procedures.mdx": {
+                        "type": "file"
+                      },
+                      "development-standards.mdx": {
+                        "type": "file"
+                      },
+                      "index.mdx": {
+                        "type": "file"
+                      },
+                      "meta.json": {
+                        "type": "file"
+                      },
+                      "openapieg.mdx": {
+                        "type": "file"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "lib": {
+        "type": "directory",
+        "children": {
+          "source.ts": {
+            "type": "file"
+          }
+        }
+      },
+      "mdx-components.tsx": {
+        "type": "file"
+      },
+      "middleware.ts": {
+        "type": "file"
+      },
+      "next.config.mjs": {
+        "type": "file"
+      },
+      "package-lock.json": {
+        "type": "file"
+      },
+      "package.json": {
+        "type": "file"
+      },
+      "postcss.config.mjs": {
+        "type": "file"
+      },
+      "public": {
+        "type": "directory",
+        "children": {
+          "files": {
+            "type": "directory",
+            "children": {
+              "globaldyne-supplier-api-v3.yaml": {
+                "type": "file"
+              },
+              "globaldyne-working-api.yaml": {
+                "type": "file"
+              },
+              "minimal-test.yaml": {
+                "type": "file"
+              },
+              "simple-test-api.yaml": {
+                "type": "file"
+              }
+            }
+          }
+        }
+      },
+      "source.config.ts": {
+        "type": "file"
+      },
+      "test-public-docs.md": {
+        "type": "file"
+      },
+      "test-subdomain.md": {
+        "type": "file"
+      },
+      "tsconfig.json": {
+        "type": "file"
+      }
+    }
+  }
+}
